@@ -2,9 +2,9 @@ spring:
   application:
     name: users-service
   datasource:
-    url:
-    username:
-    password:
+    url: jdbc:postgresql://localhost:5432/AM_MS_USRS
+    username: AM_MS_USRS_APP
+    password: T/A*n+.uh_U5My7Cc-*c{%a;8Ccba{
   jpa:
     hibernate:
       ddl-auto: validate
